@@ -14,22 +14,150 @@
 </head>
 
 <body>
-
-    <nav>
+    <!-- Cook Navbar  -->
+    <header>
         <div class="container">
-            <div id="nav-tital">
-                <h6>Cooking master</h6>
-            </div>
-            <div id="nav-ul">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Recipes</li>
-                    <li>Blog</li>
-                </ul>
+            <div id="nav">
+                <div id="nav-tital">
+                    <h6>Cooking master</h6>
+                </div>
+                <div id="nav-ul">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Recipes</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </nav>
+    </header>
+
+
+    <!-- search option  -->
+
+    <section>
+        <div class="container">
+            <div class="d-flex">
+                <input type="search" class="form-control" placeholder="Search for Meal..">
+                <button id="btn-search">Search</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Recipes Img  -->
+    <section>
+        <div class="container">
+            <div class="all-block">
+                <div class="block">
+                    <div class="block-img">
+                        <img src="img/Baked salmon with fennel & tomatoes-11.jpg" alt="">
+                    </div>
+
+                    <div class="block-pra">
+                        <p>Baked salmon with fennel </p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block-img">
+                        <img src="img/Cajun spiced fish tacos-12.jpg" alt="">
+                    </div>
+
+                    <div class="block-pra">
+                        <p>Cajun spiced fish tacos</p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block-img">
+                        <img src="img/Escovitch Fish-13.jpg" alt="">
+                    </div>
+
+                    <div class="block-pra">
+                        <p>Escovitch Fish</p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block-img">
+                        <img src="img/Fish pie-14.jpg" alt="">
+                    </div>
+
+                    <div class="block-pra">
+                        <p>Fish pie</p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block-img">
+                        <img src="img/Fish Stew with Rouille-15.jpg" alt="">
+                    </div>
+
+                    <div class="block-pra">
+                        <p>Fish Stew with Rouille</p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block-img">
+                        <img src="img/Garides Saganaki-16.jpg" alt="">
+                    </div>
+
+                    <div class="block-pra">
+                        <p>Garides Saganaki</p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block-img">
+                        <img src="img/Honey Teriyaki Salmon-17.jpg" alt="">
+                    </div>
+
+                    <div class="block-pra">
+                        <p>Honey Teriyaki Salmon</p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block-img">
+                        <img src="img/Kedgeree-18.jpg" alt="">
+                    </div>
+
+                    <div class="block-pra">
+                        <p>Kedgeree</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section>
+        <section>
+            <div class="container">
+                <div class="cardbody">
+                    <h3>${meal.name}</h3>
+                    <p>${meal.strInstructions}</p>
+                    <h4>${meal.strIngredient1}</h4>
+                    <h4>${meal.strIngredient2}</h4>
+                    <h4>${meal.strIngredient3}</h4>
+                    <h4>${meal.strIngredient4}</h4>
+                    <h4>${meal.strIngredient5}</h4>
+                    <h4>${meal.strIngredient6}</h4>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+
+
 
 
     <script src="mastar.js"></script>

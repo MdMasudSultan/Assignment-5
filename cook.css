@@ -1,6 +1,11 @@
 /* navbar */
 body {
-    margin-top: 50px;
+    margin-top: 30px;
+    background-color: #edd263;
+}
+
+section {
+    margin-top: 30px;
 }
 
 #nav-tital {
@@ -19,7 +24,12 @@ body {
 #nav-tital {
     width: 200px;
     float: left;
-    display: block;
+    color: #3d2b64;
+}
+
+#nav-tital h6 {
+    font-size: 15px;
+    font-weight: 700;
 }
 
 
@@ -37,4 +47,38 @@ body {
 
 #nav-ul {
     float: right;
+}
+
+/* < !-- Recipes Img --> */
+.block {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-bottom: 120px;
+    margin-left: 20px;
+    display: block;
+}
+
+
+.block-img img {
+    width: 100%;
+}
+
+.block-pra {
+    padding: 5px;
+    background: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* input btn  */
+
+button#btn-search {
+    border: none;
+    background-color: #3b2d64;
+    color: white;
+    margin-left: -100px;
+    width: 100px;
+    border-radius: 5px;
 }
